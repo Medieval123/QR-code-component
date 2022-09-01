@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Karla:wght@300&family=Merriweather+Sans&family=Montserrat:wght@300&family=Outfit&family=Source+Code+Pro:wght@300&display=swap" rel="stylesheet">
+  <title> QR code component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    html, body{
+      height: 100%;
+      margin: auto;
+    }
+
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+    
+    .mainContent {
+      display: flex;
+      text-align: center;
+      justify-content: center;
+      align-items: center;
+      background-color: hsl(212, 45%, 89%);
+      font-family: 'Outfit', sans-serif;
+      height: 100%;
+      width: 100%;
+    }
+
+    body h3{
+      font-weight: 700;
+    }
+    body p{
+      font-weight: 400;
+      font-size: 0.9375rem;
+      color: hsl(220, 15%, 55%)
+    }
+
+    .content{
+      width: 260px;
+      background-color: white;
+      margin: auto;
+      padding: 15px;
+      border-radius: 10px;
+      
+    }
+    #qrCode{
+      width: 260px;
+      height: 260px;
+    }
+    a {
+      font-family: 'Outfit', sans-serif;
+      font-weight: 300;
+    }
+
+
+  </style>
+</head>
+<body>
+    <div class="mainContent">
+      <div class="content">
+        <img src="images/image-qr-code.png" alt="qr-code" id="qrCode">
+        <h3>Improve your front-end skills by building projects</h3>
+        <p>Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
+      </div>
+    </div>
+    <footer>
+      <div class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+        Coded by <a href="#">Olabiyi Judah  <br> &copy; Godspeed 2022.</a>.
+      </div>
+    </footer>
+</body>
+
+</html>
